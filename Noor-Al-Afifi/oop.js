@@ -9,7 +9,7 @@ function Student(name, age) {
   this.name = name;
   this.age = age;
 
-  const grade = 0; // private proparity
+  const grade = null; // private proparity
 
     this.setGrade = function (grade) { // setter method
         if (grade == 'A' || grade == 'F') {
