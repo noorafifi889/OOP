@@ -22,14 +22,14 @@ function Student(name, age) {
   this.getGrade= function() {  
     return this.grade;
   }
-  this.introduce = function () {
+
+}
+  Student.prototype.introduce = function () { // use prototype 
    console.log(
-       `Hi, my name is ${this.name}, I’m  ${
-           this.age
-       } years old and I’m in grade ${this.getGrade()}`
+       `Hi, my name is ${this.name}, I’m  ${this.age} years old and I’m in grade ${this.getGrade()}`
    );
   };
-}
+
 
 const student = new Student("Noor", 20);
 student.setGrade('F');
