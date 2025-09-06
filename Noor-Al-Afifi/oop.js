@@ -28,4 +28,3 @@ const student = new Student("Noor", 20, "F");
 student.introduce();
 student.setGrade("A"); //test
 student.introduce();
-// this.setGrade('F');
